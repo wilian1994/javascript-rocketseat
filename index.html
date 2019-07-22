@@ -12,28 +12,28 @@
   <input type="text" id="nome">
   <button onclick="adicionar()">Adicionar</button>
   <ul></ul>
-  <script>
+  <script src="module04.js">
 
-        var nomes = ['Diego', 'Gabriel', 'Lucas']
+        // var nomes = ['Diego', 'Gabriel', 'Lucas']
 
-        var listElement = document.querySelector('ul')
-        var inputElement = document.querySelector('input');
+        // var listElement = document.querySelector('ul')
+        // var inputElement = document.querySelector('input');
 
-        for (const nome of nomes) {
-            createLine(nome)
-        }
+        // for (const nome of nomes) {
+        //     createLine(nome)
+        // }
 
-        function adicionar(){
-            createLine(inputElement.value)
-            inputElement.value = ''
-        }
+        // function adicionar(){
+        //     createLine(inputElement.value)
+        //     inputElement.value = ''
+        // }
 
-        function createLine(text){
-            var li = document.createElement('li')
-            var nome = document.createTextNode(text);
-            li.appendChild(nome)
-            listElement.appendChild(li)
-        }
+        // function createLine(text){
+        //     var li = document.createElement('li')
+        //     var nome = document.createTextNode(text);
+        //     li.appendChild(nome)
+        //     listElement.appendChild(li)
+        // }
 
 //    var btnElement = document.getElementById('new');
 //     var squaresElement = document.getElementById('squares');
